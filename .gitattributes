@@ -1,0 +1,2 @@
+*.mp4 diff=lfs merge=lfs -text
+. !text !filter !merge !diff
