@@ -1,8 +1,9 @@
 
 window.onload = function () {
     var video = document.getElementById("vid-bg");
-    if (video.readyState === 4) {
-        video.muted = true;
+    video.muted = true;
+    video.load();
+    video.onloadeddata = function () {
         video.play();
-    }
+    };
 }
