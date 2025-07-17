@@ -49,8 +49,9 @@ body {
 }
 
 #ic-caret {
-    margin-left: 20px;
-    max-width: 40px;
+    margin-left: 30px;
+    width: 100%;
+    max-width: 45px;
     height: auto;
 }
 
@@ -61,7 +62,8 @@ body {
     font-size: 4rem;
     padding: 20px 0px;
     background-color: rgb(13 13 13 / 23%);
-    color: #d47171;
+    color: #dddddd;
+    /* color: #d47171; */
     box-shadow: 0 1px 12px rgba(128, 69, 218, 0.71);
     border: 1px solid white;
     border-radius: 2px;
