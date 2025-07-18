@@ -28,8 +28,8 @@ body {
 }
 
 #logo {
-    width: 90%;
-    max-width: 1400px;
+    width: 75%;
+    max-width: 1200px;
 }
 
 #logo-cont {
@@ -42,7 +42,7 @@ body {
 
 #dl-btn-cont {
     width: 100%;
-    margin-top: 100px;
+    margin-top: 25px;
     display: flex;
     align-items: center;
     justify-content: center;
