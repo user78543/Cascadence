@@ -155,7 +155,7 @@ footer {
 
 #steam-link-btn {
     text-align: center;
-    font-size: 4em;
+    font-size: calc(26px + 3vw);
     width: 100%;
     max-width: 800px;
     height: auto;
@@ -181,6 +181,7 @@ footer {
 }
 
 @media (600px <=width <=1000px) {
+
 
     #vid-overlay {
         padding-top: 20%;
@@ -210,9 +211,12 @@ footer {
 
 @media (width <=600px) {
 
-    #vid-overlay {
-        padding-top: 55%;
+    #logo {
+        width: 100%;
+    }
 
+    #vid-overlay {
+        padding-top: 220px;
     }
 
     #dl-btn-cont {
@@ -220,15 +224,15 @@ footer {
     }
 
     #dl-btn {
-        font-size: 1.4rem;
-        width: 120px;
+        font-size: 1.8rem;
+        width: 220px;
         padding: 15px;
-        height: 20px;
+        height: 30px;
     }
 
     #ic-caret {
-        max-width: 15px;
-        margin-left: 10px;
+        max-width: 20px;
+        margin-left: 15px;
     }
 
     .slogo-cont {
