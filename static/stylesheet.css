@@ -135,7 +135,7 @@ footer {
     align-items: center;
     position: relative;
     z-index: 10;
-    background-color: black;
+    background-color: rgb(0 0 0 / 95%);
 }
 
 #steam-link-icon {
